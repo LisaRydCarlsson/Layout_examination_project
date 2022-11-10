@@ -38,6 +38,7 @@ body {
 
 label {
   font-family: var(--font-family-text);
+  font-weight: 700;
 }
 
 /*General style for  wrapper */
@@ -619,7 +620,7 @@ textarea {
 /*contact page location*/
 .contact_page_footer {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1;
   grid-auto-rows: 25.4rem;
   justify-content: center;
@@ -638,6 +639,7 @@ textarea {
   padding-bottom: 5rem;
   color: var(--color-white);
   line-height: 1.5rem;
+  max-width:21.25rem; 
 }
 
 .come_visit_us h1{
@@ -651,8 +653,9 @@ textarea {
 }
 .contact_page_footer figure {
   grid-column: 4 /span 1;
-  margin: 0 3rem;
+  margin: 0 -2.18rem;
+
 }
 
 
-/* Layout Examination 2022 / 11 / 10 */
+/* Layout Examination 2022 / 11 / 10 By Lisa, Usha and Shirak */
